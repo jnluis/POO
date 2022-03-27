@@ -10,7 +10,7 @@ public class Ex2 {
 
        countDigits_SpaceChars_stringminusc(S);
        System.out.println("A sua frase é palíndromo? "+ispalindrome(S));
-       S = S.replaceAll("\s+", " "); /* não é este método para tirar os espaços? */
+       S = S.replaceAll("\s+", " "); 
        System.out.println("A sua frase sem múltiplos espaços é: "+S);
         sc.close();
     }
