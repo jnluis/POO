@@ -17,7 +17,7 @@ public class Ex1 {
         System.out.println("A sua string acaba em ouco?: "+S.endsWith("ouco"));
         System.out.println("A sua string contém a expressão ora?: "+S.contains("ora"));
 
-        sc.close();}
+        sc.close();} 
     
 }
 
