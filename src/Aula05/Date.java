@@ -3,25 +3,31 @@ package Aula05;
 public class Date {
     int day, month, year;
 
+    public Date(int day, int month, int year){
+        this.day = day;
+        this.month = month;
+        this.year = year;
+    }
+
     public void setDate(int dia, int mes, int ano){
         this.day = dia;
         this.month = mes;
         this.year = ano;
     }
-    public Date(int day, int month, int year) {
+        
+    //     public Date(int day, int month, int year) {
+    //     if (Isvalid(day, month, year)) {
+    //         this.day = day;
+    //         this.month = month;
+    //         this.year = year;
+    //     }
 
-        if (Isvalid(day, month, year)) {
-            this.day = day;
-            this.month = month;
-            this.year = year;
-        }
-
-        else {
-            System.out.println("Data Inválida!!!");
-        }
+    //     else {
+    //         System.out.println("Data Inválida!!!");
+    //     }
 
 
-    }
+    // } 
 
     public static boolean ValidMonth(int month){
         boolean valid = false;

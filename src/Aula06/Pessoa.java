@@ -30,13 +30,17 @@ public void validate(Date d) {
 		return bolsa;
 	}
 
+    public Date getDataNasc() {
+		return dataNasc;
+	}
+    
     public void setBolsa(double bolsa) {
         this.bolsa = bolsa;
     }
 
     @Override
 	public String toString() {
-		return String.format("Nome: %s, Cartão de Cidadão: %s, Data de Nascimento: %s", nome, cc, dataNasc);
+		return nome + ", CC: " + cc + ", Data de Nascimento: " + dataNasc.toString();
 	}
 }
 
